@@ -1,0 +1,38 @@
+{
+  "name": "sub2myonlyfans-front",
+  "version": "1.0.0",
+  "description": "EPITECH tek5 javascript-fullstack frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "react-script test --env=jsdom",
+    "build": "react-scripts build",
+    "start": "react-script start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brihoumb/sub2myOnlyfans-front.git"
+  },
+  "keywords": [
+    "javascript",
+    "react-redux",
+    "socketio"
+  ],
+  "author": "brihoumb nifu-hub will94290",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brihoumb/sub2myOnlyfans-front/issues"
+  },
+  "homepage": "https://github.com/brihoumb/sub2myOnlyfans-front#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.51",
+    "@types/react-dom": "^16.9.8",
+    "@types/redux": "^3.6.0",
+    "eslint": "^7.10.0",
+    "react-scripts": "^3.4.3"
+  }
+}
