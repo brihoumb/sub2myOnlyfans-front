@@ -1,25 +1,23 @@
 import React from 'react'
-import MultiScore from '../../Box/MultiScoreBoard/multiScoreBoard';
-import LeaderScore from '../../Box/LeaderBoard/leaderBoard';
+import Score from '../../Box/ScoreBoard/ScoreBoard';
 
 import {
   Link
 } from "react-router-dom"
 
-function Multi() {
+function Solo() {
   return (
     <div id="page">
       <div class="top-game">
       </div>
       <div class="middle-game tabs">
         <div class="left">
-          {MultiScore()}
         </div>
         <div class="menu middle">
           <Link to="/"> Home</Link>
         </div>
         <div class="right">
-          {LeaderScore()}
+          <Score />
         </div>
       </div>
       <div class="bottom-game">
@@ -28,4 +26,4 @@ function Multi() {
   );
 }
 
-export default Multi;
+export default Solo;

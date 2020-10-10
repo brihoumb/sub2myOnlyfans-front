@@ -1,7 +1,7 @@
 import React from 'react';
-import Home from './Pages/Home/home'
-import Solo from './Pages/Solo/solo'
-import Multi from './Pages/Multi/multi'
+import Home from './Pages/Home/Home'
+import Solo from './Pages/Solo/Solo'
+import Multi from './Pages/Multi/Multi'
 import './index.css';
 
 import {

@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css';
-import MultiScore from '../../Box/MultiScoreBoard/multiScoreBoard';
-import Score from '../../Box/ScoreBoard/scoreBoard';
+import MultiScore from '../../Box/MultiScoreBoard/MultiScoreBoard';
+import Score from '../../Box/ScoreBoard/ScoreBoard';
 
 import {
   Link
@@ -30,7 +30,7 @@ function Home() {
       </div>
       <div class="bottom-menu tabs">
         <div class="left">
-          {MultiScore()}
+          <MultiScore />
         </div>
         <div class="menu middle">
           <div><Button variant="contained" color="primary"> Connection</Button></div>
@@ -38,7 +38,7 @@ function Home() {
           <Link to="/multi" className={classes.link}><Button variant="contained" color="primary"> Multi-player</Button></Link>
         </div>
         <div class="right">
-          {Score()}
+          <Score />
         </div>
       </div>
     </div>
