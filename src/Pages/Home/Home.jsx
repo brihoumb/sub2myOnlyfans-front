@@ -7,7 +7,6 @@ import {
   makeStyles,
 } from '@material-ui/core';
 import './home.css';
-import MultiScore from '../../Box/MultiScoreBoard/MultiScoreBoard';
 import Score from '../../Box/ScoreBoard/ScoreBoard';
 
 const useStyles = makeStyles({
@@ -26,18 +25,13 @@ function Home() {
         <h2 className="subtitle">But never, don&#39;t be rude !</h2>
       </div>
       <div className="bottom-menu tabs">
-        <div className="left">
-          <MultiScore />
-        </div>
+        <div className="left" />
         <div className="menu middle">
-          <div>
-            <Button variant="contained" color="primary"> Connection</Button>
-          </div>
           <Link to="/solo" className={classes.link}>
-            <Button variant="contained" color="primary"> Solo-player</Button>
+            <Button variant="contained" color="primary"> Play</Button>
           </Link>
-          <Link to="/multi" className={classes.link}>
-            <Button variant="contained" color="primary"> Multi-player</Button>
+          <Link to="/" className={classes.link}>
+            <Button variant="contained" color="primary"> Disconnect</Button>
           </Link>
         </div>
         <div className="right">

@@ -1,0 +1,22 @@
+.connection-main {
+  margin: 10vh auto;
+}
+
+.connection-main button {
+}
+
+.connection-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.connection-form .connection-field {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.connection-form .connection-field p {
+  margin: 0 10px 0 0;
+}
