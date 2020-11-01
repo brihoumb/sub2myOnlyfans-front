@@ -1,0 +1,31 @@
+.top-menu {
+  width: 100vw;
+  height: 20vh;
+}
+
+.top-menu .title {
+  font-size: 3em;
+  margin: 5vh 0 0 0;
+  text-align: center;
+}
+
+.top-menu .subtitle {
+  margin: 2vh 0 0 0;
+  text-align: center;
+}
+
+.bottom-menu {
+  height: 75vh;
+  padding-top: 5vh;
+}
+
+.bottom-menu .menu {
+  margin: 2vh 5vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-menu .menu span {
+  	font-family: 'Special Elite', cursive;
+    font-weight: bold;
+}
