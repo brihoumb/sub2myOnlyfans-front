@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html
+{
+	background: #313131;
+}
+
+body
+{
+	font-family: 'Special Elite', cursive;
+  display: flex;
+}
+
+h1
+{
+    font-size: 3em;
+}
+
+p, h1, h2, h3
+{
+	color: rgba(255, 255, 255, 0.664);
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+#page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+  --- Game ---
+*/
+
+.top-game {
+  width: 100vw;
+  height: 20vh;
+}
+
+.middle-game {
+  width: 100vw;
+  height: 60vh;
+}
+
+.bottom-game {
+  width: 100vw;
+  height: 20vh;
+}
+
+
+
+/*
+  --- Tabs ---
+*/
+.tabs {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.tabs .left {
+  width: 20vw;
+}
+
+.tabs .middle {
+  width: 60vw;
+}
+
+.tabs .right {
+  width: 20vw;
+}
+
+/*
+  --- Board ---
+*/
+.board {
+  margin: 1.5em;
+  border: solid rgba(255, 255, 255, 0.664);
+  border-radius: 1em;
+  flex-direction: column;
+}
+
+.board .title {
+  text-align: center;
+  margin-top: 1em !important;
+  margin-bottom: 0;
+}
+
+.board .subtitle {
+  text-align: center;
+  margin-top: 0.5em;
+  padding-bottom: 1em;
+  border-bottom: solid rgba(255, 255, 255, 0.664);
+}
+
+.board .list {
+  flex-direction: column;
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.664);
+}
+
+.board .list .line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.board .list .line p {
+  margin: 0 1em 0 0;
+  text-align: center;
+}
